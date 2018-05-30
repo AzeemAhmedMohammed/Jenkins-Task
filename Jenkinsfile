@@ -1,3 +1,4 @@
+properties([pipelineTriggers([githubPush()])])
 node {
  	// Clean workspace before doing anything
     deleteDir()
